@@ -37,8 +37,8 @@
             <?php foreach ($tasks as $task): ?>
                 <tr>
                     <td><?php echo htmlspecialchars($task['id'], ENT_QUOTES, 'UTF-8'); ?></td>
-                    <td><?php echo htmlspecialchars($task['name'], ENT_QUOTES, 'UTF-8'); ?></td>
-                    <td><?php echo htmlspecialchars($task['email'], ENT_QUOTES, 'UTF-8'); ?></td>
+                    <td><?php echo htmlspecialchars($task['tarefa'], ENT_QUOTES, 'UTF-8'); ?></td>
+                    <td><?php echo htmlspecialchars($task['prazo'], ENT_QUOTES, 'UTF-8'); ?></td>
                     <td>
                         <a href="Taskindex.php?action=read&id=<?php echo $task['id']; ?>">Ver</a>
                         <a href="Taskindex.php?action=update&id=<?php echo $task['id']; ?>">Editar</a>

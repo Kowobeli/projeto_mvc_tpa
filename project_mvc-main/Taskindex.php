@@ -12,7 +12,7 @@ $TaskController = new TaskController($db);
 $action = isset($_GET['action']) ? $_GET['action'] : '';
 $id = isset($_GET['id']) ? $_GET['id'] : null;
 
-// Determinar a ação do usuário
+// Determinar a ação da tarefa
 switch ($action) {
     case 'create':
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {

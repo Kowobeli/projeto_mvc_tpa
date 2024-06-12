@@ -12,7 +12,7 @@
         <input type="text" id="tarefa" name="tarefa" value="<?php echo htmlspecialchars($task['tarefa'], ENT_QUOTES, 'UTF-8'); ?>" required>
         <br>
         <label for="prazo">Prazo:</label>
-        <input type="prazo" id="prazo" name="prazo" value="<?php echo htmlspecialchars($task['prazos'], ENT_QUOTES, 'UTF-8'); ?>" required>
+        <input type="prazo" id="prazo" name="prazo" value="<?php echo htmlspecialchars($task['prazo'], ENT_QUOTES, 'UTF-8'); ?>" required>
         <br>
         <input type="submit" value="Update">
     </form>

@@ -12,10 +12,10 @@
         <input type="text" id="tarefa" name="tarefa" required>
         <br>
         <label for="Prazo">Prazo:</label>
-        <input type="Prazo" id="Prazo" name="Prazo" required>
+        <input type="text" id="prazo" name="prazo" required>
         <br>
         <input type="submit" value="Create">
     </form>
-    <a href="Userindex.php">Voltar para lista de tarefas</a>
+    <a href="Taskindex.php">Voltar para lista de tarefas</a>
 </body>
 </html>
